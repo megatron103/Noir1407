@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bangdiemhs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scr.js" defer></script>
+</head>
+<body>
+    <!-- <audio autoplay>
+        <source src="media.mp3">
+    </audio> -->
+    <div class="wraper">
+    <div id="acheron" class="container">  
+        <div class="yue">
+            <img src="140721235282360.png" alt="a girl" class="avatar">
+        </div>
+        <h3> ZYE</h3>
+    </div>
+    <div class="fire">
+        <h2>TRY IT</h2>
+        <!-- <form >
+           <input type="password" id="password" placeholder="Yourcode,pls">
+           <button onclick="checkpassword()"> Xác nhận</button>
+           <button id="add" class="hiden" onclick="add()"> ADD</button>
+        </form> -->
+        <form >
+            <input type="password" id="password" placeholder="Nhập mật khẩu">
+        </form>
+        
+    <button onclick="checkPassword()">Xác nhận</button>
+    <button id="addHs" class="hidden" onclick="addStudent()">Add HS</button>
+    <button id="Save" class="hidden" onclick="saveData()">Save</button>
+    </div>  
+   <div id="main_menu">
+        <nav id="you">
+            <ul>
+                <li><a href="">acheron</a></li>
+                <li><a href="">yingliu</a></li>
+                <li><a href="">f145</a></li>
+                <li><a href="">hmk</a></li>
+                <li><a href="">lmht</a></li>
+            </ul>
+        </nav>
+
+   </div>  
+    </div>
+    <div class="bangdiem" id="sua">
+        <h3> BẢNG ĐIỂM-ACHERON</h3>
+            <hr style="width: 50%;height: 3px; background-color: rgb(218, 193, 242);border-radius:10px; box-shadow: 0 0 10px rgba(236, 171, 238, 0.3);">
+        <table id="scoreTable">
+            <thead>
+                <tr>
+                    <th>TÊN HỌC SINH</th>
+                    <th>ĐTB</th>
+                    <TH>RANK</TH>
+                    <th>TOÁN</th>
+                    <th>LÝ</th>
+                    <th>HÓA</th>
+                    <th>SINH</th>
+                    <th>VĂN</th>
+                    <th>TIN</th>
+                    <th>ANH</th>
+                </tr>   
+            </thead>
+            <tbody>
+               <tr>
+                    <td>TAO LÀ VUA</td>
+                    <td contenteditable="false" class="editable">8</td>
+                    <td contenteditable="false" class="editable">7</td>
+                    <td contenteditable="false" class="editable">9</td>  
+                    <td contenteditable="false" class="editable">8</td>
+                    <td contenteditable="false" class="editable">7</td>
+                    <td contenteditable="false" class="editable">9</td>
+                    <td contenteditable="false" class="editable">8</td>
+                    <td contenteditable="false" class="editable">7</td>
+                    <td contenteditable="false" class="editable">9</td>
+               </tr>
+               <tr>
+                     <td>THÚY KIỀU</td>
+                     <td contenteditable="false" class="editable">8</td>
+                     <td contenteditable="false" class="editable">7</td>
+                     <td contenteditable="false" class="editable">9</td>
+                     <td contenteditable="false" class="editable">8</td>
+                     <td contenteditable="false" class="editable"> 7</td>
+                     <td contenteditable="false" class="editable">9</td>
+                     <td contenteditable="false" class="editable">8</td>
+                     <td contenteditable="false" class="editable">7</td>
+                     <td contenteditable="false" class="editable">9</td>
+               </tr>
+               <tr>
+                    <td>KIỀU NGUYỆT NGA</td>
+                    <td contenteditable="false" class="editable">8</td>
+                    <td contenteditable="false" class="editable">7</td>
+                    <td contenteditable="false" class="editable">9</td>
+                    <td contenteditable="false" class="editable">8</td>
+                    <td contenteditable="false" class="editable">7</td>
+                    <td contenteditable="false" class="editable">9</td>
+                    <td contenteditable="false" class="editable">8</td>
+                    <td contenteditable="false" class="editable">7</td>
+                    <td contenteditable="false" class="editable">9</td>
+               </tr>
+               <tr>
+                    <td>NỮ MỸ NHÂN</td>
+                    <td contenteditable="false" class="editable">8</td>
+                    <td contenteditable="false" class="editable">7</td>
+                    <td contenteditable="false" class="editable">9</td>
+                    <td contenteditable="false" class="editable">8</td>
+                    <td contenteditable="false" class="editable">7</td>
+                    <td contenteditable="false" class="editable">9</td>
+                    <td contenteditable="false" class="editable">8</td>
+                    <td contenteditable="false" class="editable">7</td>
+                    <td contenteditable="false" class="editable">9</td>
+               </tr>
+            </tbody>        
+        </table>
+        <button id="Save" class="hidden" onclick="saveData()">SAVE</button>
+        
+    </div>
+</body>
+</html>

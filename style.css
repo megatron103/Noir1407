@@ -1,0 +1,108 @@
+body{
+    /* background-image: url(chill.png); */
+    background-color: rgb(141, 213, 245);
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+html,body{
+    height: 100%;
+    margin: 1;
+    padding: auto;
+}
+#acheron{
+    /* background-image: url(hihi.png); */
+    background-color: rgb(161, 243, 246) ;
+    background-size: cover;
+    background-position: 60%;
+    width: 160px;
+    border-radius: 12px;
+    height:120px;
+    padding-top: 12px;
+    
+}
+#acheron h3{
+    color:rgb(209, 107, 165);
+    font-size: 16px;
+    text-align:left; 
+    justify-self: center;
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-top: 4%;
+}
+.wraper{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.yue{
+    display: flex;
+    justify-self:center;
+}
+.fire h2{
+    font-size: small;
+    color: rgb(173, 11, 168);
+}
+#main_menu #you ul{
+    display: flex;
+    list-style: none;/* bỏ dấu chấm*/
+    justify-self:center;
+    gap: 90px;
+}
+#main_menu{
+    /* background-image: url(thanhkiem.png); */
+    background-color:rgb(130, 242, 246) ;
+    background-size: cover;
+    border-radius: 24px;
+    width: 900px;
+    height: 25%;
+    
+}
+#main_menu #you ul li a{
+    text-decoration: none;/* bỏ gạch chân liên kết*/
+    display: block;
+    color: rgb(171, 34, 145);
+    
+}
+.bangdiem{
+    background-color: aliceblue;
+    align-items: center;
+    height: 500px;
+    width:1100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 1%;
+}
+.bangdiem h3{
+    color: rgb(253, 173, 240);
+    text-align: center;
+    padding-top: 20px;
+}
+table{
+    border:3px solid rgb(255, 196, 245);
+    width: 90%;
+    display: center ;
+    margin: auto;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid;
+    padding: auto;
+    text-align: center;
+    color: rgb(151, 81, 216);
+}
+input{
+    width: 90%;
+    border: 1px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    color: blueviolet;
+}
+.hidden{
+    display: none;
+}
