@@ -2,7 +2,7 @@ let editMode = false;
 
 function checkPassword(){
     const password = document.getElementById("password").value;
-    if(password === "1234"){
+    if(password === "1407"){
         document.getElementById("addHs").classList.remove("hidden");
         document.getElementById("Save").classList.remove("hidden");
         enableEditing(true);
